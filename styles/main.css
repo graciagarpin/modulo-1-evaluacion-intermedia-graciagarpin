@@ -53,3 +53,10 @@
   color: #ffffff;
   font-size: 30px;
 }
+
+@media all and (min-width: 768) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
