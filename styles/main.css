@@ -18,6 +18,11 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .main {
@@ -30,9 +35,18 @@
   box-sizing: content-box;
 }
 
+.navigation_menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
 .menu_item {
   text-decoration: none;
   color: var(--color-header-text);
+  padding: 20px;
 }
 
 .main_text {
