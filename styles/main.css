@@ -5,3 +5,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* GLOBAL */
+:root {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* VARIABLES */
+:root {
+  --color-header-text: #4a4a4a;
+  --color-main-background: #3cdbc0;
+  --color-main-text: #ffffff;
+}
